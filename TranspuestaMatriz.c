@@ -28,5 +28,18 @@ int main()
             printf("%d\t|\t", Matrix[i][j]);
         }
     }
-    
+    printf("\n");
+    printf("\n LA MATRIZ TRANSPUESTA ES:\n");
+
+    for (int i = 0; i < m; i++)
+    {
+
+        printf("\n");
+        for (int j = 0; j < n; j++)
+        {
+            MatrixA[i][j] = Matrix[j][i];
+
+            printf("%d\t|\t", MatrixA[i][j]);
+        }
+    }
 }
